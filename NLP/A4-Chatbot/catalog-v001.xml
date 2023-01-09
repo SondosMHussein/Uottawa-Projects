@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1658075327348" name="duplicate:http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6" uri="DSApps_A4_Team6_Ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1658075327348" name="duplicate:http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6" uri="Smart%20Watch%20Ontology.owl"/>
+    </group>
+</catalog>

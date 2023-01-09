@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6">
+        <rdfs:comment xml:lang="en">Smart Watch Ontology</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Accelerometer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Accelerometer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#AmbientTemperatureSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#AmbientTemperatureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Apple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Apple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ManufacturingCompanies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#BarometricPressureSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#BarometricPressureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Battery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Battery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartDeviceProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Bluetooth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Bluetooth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Connectivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Built-in -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Built-in">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Functions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ChargingTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ChargingTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Battery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Cheap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Cheap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Price"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ClassicSmartWatches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ClassicSmartWatches">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ConnectedDevices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ConnectedDevices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Functions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Connectivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Connectivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartDeviceProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ExpectedBatteryLife -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ExpectedBatteryLife">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Battery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Expensive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Expensive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Price"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Features -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Features">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartDeviceProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Functions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Functions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Features"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#GPS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#GPS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Garmin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Garmin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ManufacturingCompanies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Gyroscope -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Gyroscope">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#HeartRateMonitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#HeartRateMonitor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#LifeSpan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#LifeSpan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Battery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Magnetometer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Magnetometer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ManufacturerWebsite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ManufacturerWebsite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Online"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ManufacturingCompanies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ManufacturingCompanies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartWatch"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Moderate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Moderate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Price"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#NFC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#NFC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Connectivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Offline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Offline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#PlacesToBuy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Online -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Online">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#PlacesToBuy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#OnlineShoppingWebsites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#OnlineShoppingWebsites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Online"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#OximetrySensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#OximetrySensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#PlacesToBuy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#PlacesToBuy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Price -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Price">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartDeviceProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Sensors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Sensors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Features"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SimpeSmartWatches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SimpeSmartWatches">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SkinConductanceSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SkinConductanceSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SkinTemperatureSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SkinTemperatureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Sensors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartDeviceProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartDeviceProperties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartDevices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartDevices"/>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartPhone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartPhone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartDevices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartSportWatches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartSportWatches">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartTV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartTV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartDevices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartWatch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartWatch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartDevices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartwatchesWithPhoneFunctions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartwatchesWithPhoneFunctions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Stores -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Stores">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Offline"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Types -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Types">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#SmartWatch"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#WIFI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#WIFI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#Connectivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#fitbit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#fitbit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ManufacturingCompanies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#lenovo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#lenovo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ManufacturingCompanies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#samsung -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#samsung">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salmasultan/ontologies/2022/6/untitled-ontology-6#ManufacturingCompanies"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

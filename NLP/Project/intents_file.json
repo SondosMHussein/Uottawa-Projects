@@ -1,0 +1,28 @@
+{"intents": [
+    {"tag": "greetings",
+     "patterns": ["Hello there", "Hey, How are you", "Hey", "Hi", "Hello", "Anybody", "Hey there"],
+     "responses": ["Hello, I'm your helping bot", "Hey it's good to see you", "Hi there, how can I help you?"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks for your quick response", "Thank you for providing the valuable information", "Awesome, thanks for helping"],
+     "responses": ["Happy to help you", "Thanks for reaching out to me", "It's My pleasure to help you"],
+     "context": [""]
+    },
+    {"tag": "no_answer",
+     "patterns": [],
+     "responses": ["Sorry, Could you repeat again", "provide me more info", "can't understand you"],
+     "context": [""]
+    },
+    {"tag": "support",
+     "patterns": ["What help you can do?", "What are the helps you provide?", "How you could help me", "What support is offered by you"],
+     "responses": [ "ticket booking for airline", "I can help you to book flight tickets easily"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+        "patterns": ["bye bye", "Nice to chat with you", "Bye", "See you later buddy", "Goodbye"],
+        "responses": [ "bye bye, thanks for reaching", "Have a nice day there", "See you later"],
+        "context": [""]
+    }
+]
+}
